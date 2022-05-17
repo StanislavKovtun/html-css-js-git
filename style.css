@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12;
+}
+
+.forma {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 50%;
+    height: 25%;
+    max-width: 200px;
+    max-height: 100px;
+    position: absolute;
+    background-color: blue;
+    border-width:1;
+}
+
+.js-counter {
+    margin-bottom: 10px;
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+button {
+    background-color: white;
+}
