@@ -39,3 +39,4 @@ clearNode.addEventListener('click', () => {
 //refreshCounter(0);
 render();
 console ('111');
+console ('222');
