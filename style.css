@@ -4,17 +4,22 @@ body {
 }
 
 .form {
+    /* display: block; */
     border-radius: 3px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 10px;
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+    /* padding-left: 10px; */
+    /* padding-right: 10px; */
     min-width: 100px;
-    min-height: 100px;
+    min-height: 110px;
     max-width: 200px;
     max-height: 200px;
     background-color: gainsboro;
-    margin: auto;
+    margin: auto auto;
+    position: relative;
+    top: 50%;
+    /* cursor: help; */
 }
 
 .counter {
@@ -47,11 +52,16 @@ buttons {
 }
 
 #clock {
-    text-align: center;
+    margin: 0 auto;
+    /* text-align: center; */
+    cursor: help;
+    width: 50px;
+    transition: 0.5s;
 }
 
 #clock:hover {
     filter: blur(2px);
+    /* transition: 1.5s; */
 }
 
 .tooltiptext {
